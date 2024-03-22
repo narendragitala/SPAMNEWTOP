@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="resources/RiZoeLX.png" alt="RiZoeLXSpam Logo">
+  <img src="https://telegra.ph/file/bb12fccd5d89ea5ed98d7.jpg" alt="RiZoeLXSpam Logo">
 </p>
 <h6 align="center">
-  <b>• SᴘᴀᴍX Bʏ RɪZᴏᴇLX •</b>
+  <b>• SᴘᴀᴍX Bʏ ᴺᴬᴿᵁᴶᴬᴬᵀ •</b>
 </h6>
 
 ----
