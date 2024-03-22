@@ -11,13 +11,13 @@
 
 ![github card](https://github-readme-stats.vercel.app/api/pin/?username=RiZoeLX&repo=SpamX&theme=lite)
 
-![Repo Size](https://img.shields.io/github/repo-size/RiZoeLX/SpamX?&style=social&logo=github)
+![Repo Size](https://img.shields.io/github/repo-size/narendragitala/SPAMNEWTOP?&style=social&logo=github)
 ![Branch](https://img.shields.io/badge/Branch-main-white?&style=social&logo=github)
 ![Python](https://img.shields.io/badge/Python-v3.10-white?style=social&logo=python)
 ![GitHub language count](https://img.shields.io/github/languages/count/RiZoeLX/SpamX?&style=social&logo=hyper)
 
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/RiZoeLXSupport)
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/RiZoeL_X)
+[![Telegram Group](https://img.shields.io/badge/Telegram-Group-white?&style=social&logo=telegram)](https://t.me/SHAYRIGALIBKI)
+[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-white?&style=social&logo=telegram)](https://t.me/BROKENSHAYRI1)
 
  - Requirements
    - [![PyPI - pyrogram](https://img.shields.io/badge/pypi-pyrogram-informational)](https://pypi.org/project/pyrogram)
@@ -37,11 +37,11 @@
 
 <h3 align="center">Deployment</h3>
 
-  - Heroku: [Click Here](https://github.com/RiZoeLX/SpamX/blob/main/resources/heroku.md)
+  - Heroku: [Click Here](https://github.com/narendragitala/SPAMNEWTOP/blob/main/resources/heroku.md)
   - Mogenius: [Click Here](https://youtu.be/6XIjTbumJYY)
   - Google Colab: [Click Here](https://youtu.be/sYgy4_8i7c8)
-  - VPS/Local hosting: [Click here](https://github.com/RiZoeLX/SpamX/blob/main/resources/local.md)
-  - Termux: [Click Here](https://github.com/RiZoeLX/SpamX/blob/main/resources/termux.md) `Some errors!`
+  - VPS/Local hosting: [Click here](https://github.com/narendragitala/SPAMNEWTOP/blob/main/resources/local.md)
+  - Termux: [Click Here](https://github.com/narendragitala/SPAMNEWTOP/blob/main/resources/termux.md) `Some errors!`
 
 ----
 
@@ -52,5 +52,5 @@ SpamX is licensed under [GNU Affero General Public License](https://www.gnu.org/
 
 <h3>Credits</h3>
 
-  - <b> [RiZoeL](https://github.com/MrRizoel) : Dev/creator of SpamX </b> 
+  - <b> [RiZoeL](https://github.com/narendragitala) : Dev/creator of SpamX </b> 
   - <b> [Pyrogram](https://github.com/pyrogram/pyrogram) : Python Library used in SpamX
