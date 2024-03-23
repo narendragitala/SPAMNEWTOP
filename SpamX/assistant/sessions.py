@@ -128,7 +128,7 @@ async def add_client(RiZoeL: Client, message: Message):
             TheSpamX.database.addSession(SpamXClient.me.id, bot_token)
             await message.reply(f"**✅ Wew, Client {SpamXClient.me.mention} Started**")
         except Exception as er:
-            await message.reply(f"**❎ Error:** {str(er)} \n\n __Report in @{TheSpamX.supportGroup}__")
+            await message.reply(f"**❎ Error:** {str(er)} \n\n __Report in @girlfriendhub")
         await checking.delete()
 
     else:
@@ -149,7 +149,7 @@ async def add_client(RiZoeL: Client, message: Message):
                 return
             except Exception as err:
                 TheSpamX.logs.info(str(err))
-                await message.reply(f"**❎ Error:** {str(err)} \n\n__Report in @{TheSpamX.supportGroup}__")
+                await message.reply(f"**❎ Error:** {str(err)} \n\n__Report in @girlfriendhub")
                 await checking.delete()
                 return
             try:
@@ -237,7 +237,7 @@ async def add_client(RiZoeL: Client, message: Message):
             await process.delete()
             await log.delete()
         except Exception as erorr:
-            await message.reply(f"**❎ Error:** {str(erorr)} \n\n __Report in @{TheSpamX.supportGroup}__")
+            await message.reply(f"**❎ Error:** {str(erorr)} \n\n __Report in @girlfriendhub")
 
 
 @Client.on_message(
