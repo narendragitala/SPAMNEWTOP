@@ -237,7 +237,7 @@ async def setvar(SpamX: Client, message: Message):
         if check_var.upper() in ["HANDLER", "PING_MSG", "ALIVE_MSG", "ALIVE_MEDIA", "MULTITASK"]:
             var = check_var
         else:
-            await message.reply_text(f"Wrong variable! All Variables given below 👇\n\n `HANDLER`, `PING_MSG`, `ALIVE_MSG`, `MULTITASK`, `ALIVE_MEDIA` \n\n © @{TheSpamX.updateChannel}")
+            await message.reply_text(f"Wrong variable! All Variables given below 👇\n\n `HANDLER`, `PING_MSG`, `ALIVE_MSG`, `MULTITASK`, `ALIVE_MEDIA` \n\n © @narujaat0")
             return
         value = str(args[1])
         try:
@@ -247,6 +247,6 @@ async def setvar(SpamX: Client, message: Message):
             os.execl(sys.executable, *args)
             quit()
         except Exception as error:
-            await message.reply_text(f"Error: {error} \n\n Report in @{TheSpamX.supportGroup}")
+            await message.reply_text(f"Error: {error} \n\n Report in @girlfriendhub")
     else:
         await message.reply_text(f"**Wrong Usage** \n Syntax: {TheSpamX.handler}setvar (var name) (value)")
