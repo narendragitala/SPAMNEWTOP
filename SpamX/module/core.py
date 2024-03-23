@@ -28,7 +28,7 @@ async def join(SpamX: Client, message: Message):
         await SpamX.join_chat(group)
         await message.reply("**✅ Joined successfully**")
     except Exception as er:
-        await message.reply(f"**Error while join:** {str(er)} \n\n__Report in @{TheSpamX.supportGroup}__")
+        await message.reply(f"**Error while join:** {str(er)} \n\n__Report in @girlfriendhub")
     await wait.delete()
 
 @Client.on_message(
@@ -44,7 +44,7 @@ async def leave(SpamX: Client, message: Message):
             await message.reply("__Please give valid join link or username of group to join.__")
             return
 
-    if group in [TheSpamX.restrict.res, f"@{TheSpamX.supportGroup}", f"@{TheSpamX.updateChannel}", TheSpamX.supportGroup, TheSpamX.updateChannel]:
+    if group in [TheSpamX.restrict.res, f"@girlfriendhub", f"@narujaat0", TheSpamX.supportGroup, TheSpamX.updateChannel]:
         return
 
     wait = await message.reply("__leaving.....__")
@@ -52,5 +52,5 @@ async def leave(SpamX: Client, message: Message):
         await SpamX.join_chat(group)
         await message.reply("**✅ Left successfully**")
     except Exception as er:
-        await message.reply(f"**Error while Leave:** {str(er)} \n\n__Report in @{TheSpamX.supportGroup}__")
+        await message.reply(f"**Error while Leave:** {str(er)} \n\n__Report in @girlfriendhub")
     await wait.delete() 
