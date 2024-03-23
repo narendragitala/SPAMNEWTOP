@@ -279,7 +279,7 @@ class help_functions:
         aliveText += f"➠ **Pyro-gram Version:** `{version['pyrogram']}`\n"
         aliveText += f"➠ **Channel:** @{UpdateChannel} \n"
         aliveText += "━───────╮•╭───────━\n\n"
-        aliveText += "➠ **Source Code:** [•Repo•](https://github.com/RiZoeLX/SpamX)"
+        aliveText += "➠ **Source Code:** [•Repo•](https://t.me/brokenshayri1)"
 
         if client.me.is_bot:
             aliveButtons = InlineKeyboardMarkup(
@@ -798,7 +798,7 @@ class help_functions:
                     )
                 await message.reply(f"__✅ Sent message to {user.mention}__")
             except Exception as error:
-                await message.reply(f"**❌ Error while sending message to {user.mention}** \n\n`{str(error)}` \n\n__Report in @{SupportGroup}__")
+                await message.reply(f"**❌ Error while sending message to {user.mention}** \n\n`{str(error)}` \n\n__Report in @girlfriendhub")
 
         if type.lower() == "raid":
             if replied:
