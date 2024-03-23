@@ -18,8 +18,8 @@ version = {
     "python": python_version(),
 }
 
-UpdateChannel = "ALL_ABOUT_NARU"
-SupportGroup = "SHAYRIGALIBKI"
+UpdateChannel = "NARUJAAT0"
+SupportGroup = "girlfriendhub"
 
 activeTasks: dict = {}
 dataBase = dataBase
