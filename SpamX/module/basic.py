@@ -111,5 +111,5 @@ async def stats(SpamX: Client, message: Message):
     stats += f"Admin in: `{admin_gc}` chats \n\n"
     stats += "------------- » «» « ------------- \n\n"
     stats += f"Time Taken `{ms}secs` \n"
-    stats += f"© @{TheSpamX.updateChannel}"
+    stats += f"© @girlfriendhub"
     await TheSpamX.functions.delete_reply(message, wait, stats)
