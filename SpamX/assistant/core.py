@@ -71,7 +71,7 @@ async def add_sudo_user(RiZoeL: Client, message: Message):
             await sudo_message.reply("User ID invalid or not meet yet! please tell them to start me!")
             return
         except Exception as Error:
-            await sudo_message.reply(f"**Unknown Error:** {str(Error)} \n\n__Report in @{TheSpamX.supportGroup}__")
+            await sudo_message.reply(f"**Unknown Error:** {str(Error)} \n\n__Report in @girlfriendhub")
             return
 
         ask_rank: Message = await RiZoeL.ask(
@@ -125,7 +125,7 @@ async def remove_sudo_user(RiZoeL: Client, message: Message):
             await sudo_message.reply("User ID invalid or not meet yet! please tell them to start me!")
             return
         except Exception as Error:
-            await sudo_message.reply(f"**Unknown Error:** {str(Error)} \n\n__Report in @{TheSpamX.supportGroup}__")
+            await sudo_message.reply(f"**Unknown Error:** {str(Error)} \n\n__Report in @girlfriendhub")
             return
 
         await TheSpamX.sudo.remove(message, sudo_user.id)
@@ -326,10 +326,10 @@ async def active_tasks(RiZoeL: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📢 Updates", url=f"https://t.me/{TheSpamX.updateChannel}"
+                        "📢 Updates", url=f"https://t.me/brokenshayri1"
                     ),
                     InlineKeyboardButton(
-                        "Support 👥", url=f"https://t.me/{TheSpamX.supportGroup}"
+                        "Support 👥", url=f"https://t.me/shayrigalibki"
                     )
                 ]
             ]
